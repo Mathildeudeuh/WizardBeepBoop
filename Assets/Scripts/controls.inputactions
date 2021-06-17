@@ -1,0 +1,74 @@
+{
+    "name": "controls",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "4dc975b4-75e1-461a-89e1-9fdce637b9f5",
+            "actions": [
+                {
+                    "name": "LR",
+                    "type": "Button",
+                    "id": "7ca5f801-1631-4411-90da-1cc2d0771898",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Reverse",
+                    "type": "Button",
+                    "id": "5b09bf3e-df91-44cb-bbeb-fbca4588e3b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "LR",
+                    "id": "216b328e-f488-4542-92bd-68766b4d6159",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LR",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "c4876046-5f17-4330-9f49-7a791601e375",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LR",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2b30d7f7-91c1-49fe-8f7d-811b910ee7ee",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LR",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "cb55258d-b85b-47b3-a074-7e6148a98e4c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
